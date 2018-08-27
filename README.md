@@ -7,7 +7,7 @@
 
 ## Usage:
 
-在
+分别在项目目录与
 [./another-package](https://github.com/run-ze/NODE_PATH-demo/tree/master/another-package)
 目录执行 `npm i` 安装依赖,
 然后在项目目录执行 `npm test`,
