@@ -1,0 +1,24 @@
+{
+  "name": "node_path-demo",
+  "version": "1.0.0",
+  "description": "simple demo for usage of NODE_PATH",
+  "keywords": [
+    "NODE_PATH",
+    "npm"
+  ],
+  "homepage": "https://github.com/run-ze/NODE_PATH-demo#readme",
+  "bugs": {
+    "url": "https://github.com/run-ze/NODE_PATH-demo/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/run-ze/NODE_PATH-demo.git"
+  },
+  "license": "Unlicense",
+  "author": "Li Runze",
+  "main": "app.js",
+  "scripts": {
+    "start": "NODE_PATH=$(pwd)/another-package/node_modules node app",
+    "test": "NODE_PATH=$(pwd)/another-package/node_modules node app"
+  }
+}
